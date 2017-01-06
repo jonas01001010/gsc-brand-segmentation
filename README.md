@@ -1,13 +1,15 @@
 # gsc-brand-segmentation
 Script (python 3.5) to automate brand segmentation of traffic for each URL
 
-Tools.
+cmd line: python gsc_brand_segmentation.py https://www.example.com/ YYYY-MM-DD YYYY-MM-DD
+
+Tools:
 -	Python 3.5
 -	Pip install: 
 
-o	google-api-python-client
+  o	google-api-python-client
 
-o	pandas
+  o	pandas
 
 References:
 -	https://developers.google.com/webmaster-tools/v3/how-tos/search_analytics

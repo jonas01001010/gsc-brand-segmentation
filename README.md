@@ -4,7 +4,9 @@ Script (python 3.5) to automate brand segmentation of traffic for each URL
 Tools.
 -	Python 3.5
 -	Pip install: 
+
 o	google-api-python-client
+
 o	pandas
 
 References:

@@ -1,6 +1,16 @@
 # gsc-brand-segmentation
 Script (python 3.5) to automate brand segmentation of traffic for each URL
 
+Tools.
+-	Python 3.5
+-	Pip install: 
+o	google-api-python-client
+o	pandas
+
+References:
+-	https://developers.google.com/webmaster-tools/v3/how-tos/search_analytics
+-	sample: https://github.com/google/google-api-python-client/tree/master/samples/searchconsole
+
 Context:
 
 Many online marketers have difficulties when it comes to evaluating the efficiency of their search traffic. Indeed traffic coming from organic search results could be due to branding, but could also be due to SEO. Over the past years it has become even more difficult to differentiate this traffic (issue known as non provided keywords by SEOs). But the differentiation of this traffic becomes increasingly important when brand campaigns are launched, or/and many efforts are made on SEO.
@@ -62,12 +72,4 @@ https://www.example.com/aaaa  | SEO | 10 | 1.2 | 0.6 | 600€
 
 https://www.example.com/bbbb | SEO | 10 | 7 | 3 | 2000€
 
-Tools:
--	Python 3.5
--	Pip install: 
-o	google-api-python-client
-o	pandas
 
-References:
--	https://developers.google.com/webmaster-tools/v3/how-tos/search_analytics
--	sample

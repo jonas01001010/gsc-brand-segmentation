@@ -72,7 +72,7 @@ Can become this adjusted SEO report:
 
 Page | Channel | Adj_Visits |Adj_ REG | Adj_SALE | Adj_Revenues
 
-https://www.example.com/aaaa  | SEO | 10 | 1.2 | 0.6 | 600€
+https://www.example.com/aaaa  | SEO | 6 | 1.2 | 0.6 | 600€
 
 https://www.example.com/bbbb | SEO | 10 | 7 | 3 | 2000€
 

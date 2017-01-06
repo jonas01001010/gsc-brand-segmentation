@@ -163,7 +163,7 @@ def printpandas():
     df.insert(5,'%nonbrand',nonbrand)
     brand = 1- nonbrand
     df.insert(6,'%brand',brand)
-    df = df.rename(columns={'query': 'page','impressions':'NB impressions','clicks': 'NBclicks', 'avg_position': 'NB avg_position', 'clicks.1': 'Brand clicks'})
+    df = df.rename(columns={'query': 'page','impressions':'NB impressions','clicks': 'NBclicks', 'avg_position': 'NB avg_position', 'clicks.1': 'All clicks'})
     df = df.drop(df[df.NBclicks == 0].index) # delete rows when they have no non brand clicks, avoid to divide by 0
     df.to_csv('Brand segmentation per page.csv')
     print("File with brand % created")
